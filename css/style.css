@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+}
+
+body{
+  background-color: black;
+  background-image: url(../img/fundo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+@font-face{
+  font-family: Bolditalic;
+  src: url(../font/B612-Regular.ttf)
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+.principal{
+ color: white;
+ font-family: 'Bolditalic';
+}
+
+header{
+  text-align: center;
+}
+
+header p {
+  margin-top: 45px;
+  font-weight: 700px;
+}
+
+header h1{
+  margin-top: 45px;
+  font-size: 96px;
+  font-weight: 700px;
+}
+
+.capa{
+  width: 184px;
+  height: 260px;
+  border-radius: 20px;
+}
+
+main{
+  display: flex;
+  margin-top: 121px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.text-1{
+  line-height: 28px;
+}
+
+.tempo-estrela{
+  display: flex;
+  justify-content: center;
+  gap: 105px;
+  margin-top: 35px;
+}
+
+.tempo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ano, .tempo p{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  margin-top: 40px;
+}
+
+.btn-1{
+  font-size: 15px;
+  background: #0072d2;
+  text-decoration: none;
+  color: white;
+  padding: 15px 27px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-1:hover{
+  background: #4aadff;
+}
+
+.btn-2{
+  font-size: 15px;
+  background: #131318;
+  text-decoration: none;
+  color: white;
+  padding: 15px 27px;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-2:hover{
+  background: #393941;
+}
